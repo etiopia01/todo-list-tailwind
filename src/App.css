@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans" , sans-serif;
+}
+.main {
+  height: 100vh;
+}
+.top-section {
+  background-image: url("/bg-desktop.jpg");
+  background-size: cover;
+}
+
+.completed {
+  color:hsl(233, 14%, 35%) ;
+  text-decoration: line-through;
+}
+.button-completed {
+  background-color: hsl(234, 39%, 85%);
+}
