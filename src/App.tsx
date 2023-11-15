@@ -26,7 +26,7 @@ setTodos(prev=> [...prev, value])
   return (
     <div className='main flex flex-col'>
      <div className='top-section h-[35%] flex flex-col justify-center items-center'>
-      <div className='flex justify-between w-[550px] p-3 mb-3'>
+      <div className='flex justify-between w-[350px] lg:w-[550px] p-3 mb-3'>
         <h1 className='font-bold text-Light-Grayish-Blue text-4xl tracking-[10px]'>TODO</h1>
         <button></button>
         </div>
